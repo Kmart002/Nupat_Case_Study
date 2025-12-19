@@ -1,10 +1,10 @@
-# Case Study: Crypto Trading Platform Analysis & Fraud Detection
+Case Study: Crypto Trading Platform Analysis & Fraud Detection
 
-## Overview
+Overview
 
 This repository contains a Jupyter Notebook that analyzes user trading and activity data from a crypto platform. The notebook demonstrates:
 
-## 1. Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA)
 
 Market dynamics: top traded pairs by USD volume
 
@@ -12,7 +12,7 @@ Volatility analysis for BTCNGN
 
 User deposit behavior by day and hour
 
-## 2. Fraud Detection Model
+Fraud Detection Model
 
 Feature engineering from trades and user activity
 
@@ -22,12 +22,12 @@ Random Forest classifier to predict potential fraudulent users
 
 Evaluation of model metrics (Precision, Recall, F1 Score)
 
-## 3. Strategic Recommendation
+Strategic Recommendation
 
 Identification of low-volume traders for a targeted marketing campaign in Kenya
 
-# Datasets
+Datasets
 
-- trades.csv — contains trade history: timestamp, user_id, trading pair, side, price, volume
+trades.csv — contains trade history: timestamp, user_id, trading pair, side, price, volume
 
-- user_activity.csv — contains user activity: timestamp, user_id, activity type (deposit/withdrawal), asset
+user_activity.csv — contains user activity: timestamp, user_id, activity type (deposit/withdrawal), asset
